@@ -12,6 +12,14 @@ This repository is a demo showing how to use the MUI XGrid to produce a table in
 
 This demo could be useful in a typical administration tool where some users would only have read access to the table, whereas others would be able to write to it. The writing mode could be reached by click on "unlock" and then editing multiple cells at once to eventually click "save" and process the changes as desired.
 
+# Demo
+
+![Demo Gif](./DemoGIF.gif)
+
+# Disclaimer
+
+Keep in mind that this uses the commercial MUI XGrid package and this repository is just for learning purposes. Please refer to https://material-ui.com/store/items/material-ui-pro/ if you would like to use this in production.
+
 # References
 
 - https://github.com/mui-org/material-ui-x/issues/203
