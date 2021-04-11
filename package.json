@@ -1,5 +1,6 @@
 {
-  "title": "Material demo",
+  "title": "mui x-grid edit example",
+  "version": "0.0.3",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -10,19 +11,29 @@
   "devDependencies": {
     "react-scripts": "latest"
   },
-  "description": "https://github.com/mui-org/material-ui-x/blob/master/docs/src/pages/components/data-grid/editing/RenderRatingEditCellGrid.tsx",
+  "description": "This is an example on how to edit and control all cells of an XGrid via an external button and the apiRef. Related to https://github.com/mui-org/material-ui-x/issues/1381#issuecomment-816701415",
   "dependencies": {
     "typescript": "latest",
     "react-dom": "latest",
     "react": "latest",
     "@types/react-dom": "latest",
     "@types/react": "latest",
-    "@material-ui/x-grid-data-generator": "https://pkg.csb.dev/mui-org/material-ui-x/commit/3ef83c32/@material-ui/x-grid-data-generator",
     "@material-ui/lab": "latest",
     "@material-ui/icons": "latest",
-    "@material-ui/data-grid": "https://pkg.csb.dev/mui-org/material-ui-x/commit/3ef83c32/@material-ui/data-grid",
+    "@material-ui/x-grid": "4.0.0-alpha.24",
     "@material-ui/core": "latest"
   },
-  "name": "datagrid-cell-editing-issue",
-  "version": "0.0.3"
+  "name": "x-grid-full-controlled-edit-example",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
